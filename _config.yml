@@ -4,8 +4,8 @@ email: maggotgluon@gmail.com
 description: >
   อาจารย์ และนักออกแบบอิสระจากเมืองหัวหิน รับงานออกแบบทุกชนิด ตั้งแต่สื่อสิงพิมพ์ สื่อดิจิตอลไปจนถึงเว็บไซต์ และมัลติมีเดีย พร้อมที่จะแบ่งปันความรู้และรับใช้ท่านเสมอ
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maggotgluon.github.io" # the base hostname & protocol for your site
-github_username:  maggotgluon
+url: "http://ruttaphong.github.io" # the base hostname & protocol for your site
+github_username:  ruttaphong
 header_description: อาจารย์, นักออกแบบอิสระ, โปรแกรมเมอร์ และอื่นๆ...
 blog_author_description: >
   อาจารย์ และนักออกแบบอิสระจากเมืองหัวหิน
@@ -18,7 +18,7 @@ markdown: kramdown
 exclude: ['README.md']
 
 gems: [jekyll-paginate]
-paginate: 2
+paginate: 5
 paginate_path: "/blog/page/:num/"
 
 permalink: /blog/:year/:month/:title/index.html
