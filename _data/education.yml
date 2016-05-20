@@ -1,0 +1,25 @@
+- school: มหาวิทยาลัยสุโขทัยธรรมาธิราช
+  current: Yes
+  start: Jan 2013
+  end: now
+  degrees:
+    - name: สาขาวิชาวิทยาศาสตร์และเทคโนโลยี
+      concentration:  วิชาเอกวิทยาการคอมพิวเตอร์
+      type: "วิทยาศาสตร์บัณฑิต"
+      gpa:
+
+  description: |
+
+
+- school: มหาวิทยาลัยศิลปากร
+  current: No
+  start: Jan 2005
+  end: Feb 2012
+  degrees:
+    - name: สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
+      concentration:  วิชาเอกออกแบบ เกมส์
+      type: "ไม่จบการศึกษา"
+      gpa: "ไม่จบการศึกษา"
+
+  description: |
+    

@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="th"
+  class="no-js one-page-layout"
+  data-classic-layout="false"
+  data-mobile-only-classic-layout="true"
+  data-inAnimation="fadeInUp"
+  data-outAnimation="fadeOutDownBig">
+    {% include head.html %}
 
-  {% include head.html %}
+    <body>
+        {% include header.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
-    </div>
 
-    {% include footer.html %}
+        {% include footer.html %}
 
-  </body>
-
+    </body>
 </html>
