@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="วันนี้ขอ มาแบ่งปันความรู้เกี่ยวกับ Java Script กันสักหน่อยครับผมเองได้มีโอกาสทำ Project Website หนึ่งที่ลูกค้าอยากให้ ภาพสื่อถึงบรรยากาศผมเลยเสนอว่า ถ้า ผู้ใ...">
+    <meta name="keywords" content="รัฐพงศ์ วรชาติอุดมพงศ์, web dev, web developer, portfolio">
+    <meta name="author" content="รัฐพงศ์ วรชาติอุดมพงศ์">
+
+    <!-- <meta name="google-site-verification" content="J1I2enqCVWPWxLX82JE84giuntMY1SztQxGovPSBLc4"> -->
+
+    <title>รัฐพงศ์ วรชาติอุดมพงศ์ - JavaScriptเปลี่ยนพื้นหลังตามช่วงเวลาของวัน</title>
+
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+    <script src="/js/modernizr.custom.js"></script>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/nprogress/nprogress.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css">
+    <link rel="stylesheet" href="/js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="/css/uniform.default.css">
+    <link rel="stylesheet" href="/css/flexslider.css">
+    <link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.css">
+    <link rel="stylesheet" href="/css/tooltipster.css">
+    <link rel="stylesheet" href="/css/rr_light.css">
+    <link rel="stylesheet" href="/js/tipuesearch/tipuesearch.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/personal.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Kanit:100&subset=thai' rel='stylesheet' type='text/css'>
+
+    <!--[if lte IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <script src="/js/selectivizr-min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/js/highlight/styles/default.css">
+    <script src="/js/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet" type="text/css">
+
+    <link rel="canonical" href="http://maggotgluon.github.io/blog/java/2016/06/javaimage/">
+    <link rel="alternate" type="application/rss+xml" title="รัฐพงศ์ วรชาติอุดมพงศ์" href="http://maggotgluon.github.io/feed.xml" />
+</head>
+
+
+    <body>
+        <!-- CONTAINER -->
+        <div class="container" id="container" >
+            <!-- HEADER -->
+            <!-- <header class="header"> -->
+              
+                <!-- .featured-image -->
+                <header class="header" style="background-image: url(/img/posts/java-script.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+              	background-position: center;
+                background-blend-mode: multiply;
+                background-color: rgba(0,0,0,.5);">
+                <!-- .featured-image -->
+              
+
+                <h1>รัฐพงศ์ วรชาติอุดมพงศ์</h1>
+                <p>อาจารย์, นักออกแบบอิสระ, โปรแกรมเมอร์ และอื่นๆ...</p>
+
+                <!-- NAV MENU -->
+                <ul class="vs-nav">
+                    <li><a href="/blog"><i title="หน้าแบ่งปันความรู้" class="icon-left-open tooltip" data-tooltip-pos="left"></i></a></li>
+                    <li><a href="/"><i title="หน้าหลัก" class="icon-home-1 tooltip" data-tooltip-pos="bottom"></i></a></li>
+                    <li><a><i title="ค้นหา" class="search-link fa fa-search tooltip" data-tooltip-pos="right"></i></a></li>
+                </ul>
+                <!-- NAV MENU -->
+
+                <!-- SEARCH -->
+<div class="header-search">
+    <form role="search" method="get" id="search-form" action="/search">
+      <input type="text" name="q" id="search" placeholder="ใส่คำค้น" required>
+      <input type="submit" id="search-submit" title="ค้นหา" value="→">
+    </form>
+</div>
+<!-- SEARCH -->
+
+            </header>
+            <!-- HEADER -->
+
+            <!-- WRAPPER -->
+            <div class="wrapper">
+                <!-- .blog-single -->
+                <div class="readable-content blog-single">
+                    <!-- .hentry -->
+<article class="post type-post format-standard hentry">
+    <!-- .entry-header -->
+    <header class="entry-header">
+    <h1 class="entry-title">JavaScriptเปลี่ยนพื้นหลังตามช่วงเวลาของวัน</h1>
+    </header>
+    <!-- .entry-header -->
+
+    <!-- .entry-meta -->
+    <div class="entry-meta">
+        <span class="posted-in">
+            ในหมวด
+        	<a href="/blog/categories/java/" title="View all posts in this category">Java</a>
+        </span>
+
+        <span class="posted-on">
+            เมื่อ
+            <a rel="bookmark"><time class="entry-date">June 5, 2016</time></a>
+        </span>
+
+
+        <span class="posted-by">
+        	โดย
+        	<a href="/blog" class="url fn n" title="View all posts by this author" rel="author">รัฐพงศ์ วรชาติอุดมพงศ์</a>
+        </span>
+    </div>
+    <!-- .entry-meta -->
+
+    
+    <!-- .featured-image -->
+    <div class="featured-image">
+        <img src="/img/posts/java-script.jpg" alt="Java Script" title="Java Script">
+    </div>
+    <!-- .featured-image -->
+    
+
+    <!-- .entry-content -->
+    <div class="entry-content">
+        <p>วันนี้ขอ มาแบ่งปันความรู้เกี่ยวกับ Java Script กันสักหน่อยครับ
+ผมเองได้มีโอกาสทำ Project Website หนึ่งที่ลูกค้าอยากให้ ภาพสื่อถึงบรรยากาศ
+ผมเลยเสนอว่า ถ้า ผู้ใช้งาน เข้าเว็บตอนเช้า ก็ให้พื้นหลังเป็นยามเช้า เข้าตอนเย็นเห็นพระอาทิตย์ตก เข้ามาเว็บตอนกลางคืน ก็เห็นพระจันทร์ ประมาณนี้ ลูกค้าก็เห็นดีด้วย ผมเลยได้โอกาสเขียน Snippet Java เล็กๆ ขึ้นเพื่องานนี้</p>
+
+<p>โดยตัวอย่างจะแบ่งเป็น 4 ช่วงดังนี้<br />
+<img src="/img/posts/1.png" width="150" alt="เช้า 5:01 - 8:00" />
+<img src="/img/posts/2.png" width="150" alt="สาย 8:01 - 15:00" />
+<img src="/img/posts/3.png" width="150" alt="เย็น 15:01 - 19:00" />
+<img src="/img/posts/4.png" width="150" alt="ค่ำ 19:01 - 5:00" />
+<br /></p>
+
+<pre><code>
+  &lt;script type="text/javascript"&gt;
+    var now = new Date();
+    var nowTime = now.getDay();
+
+    var dayTime =  new Date();
+    var brunch =  new Date();
+    var noon =  new Date();
+    var nightTime =  new Date();
+
+    //ตั้งเวลาเริ่มต้นเของช่วงที่ต้องการ
+
+    dayTime.setHours(5);
+    dayTime.setMinutes(1);
+
+    brunch.setHours(8);
+    brunch.setMinutes(1);
+
+    noon.setHours(15);
+    noon.setMinutes(1);
+
+    nightTime.setHours(19);
+    nightTime.setMinutes(1);
+
+    //แสดงภาพตามเวลา
+    if(dayTime&lt;now &amp;&amp; brunch &gt; now){
+      document.write('&lt;img src="/img/posts/1.png"&gt;');
+    }
+    else if(brunch&lt;now &amp;&amp; noon &gt; now){
+      document.write('&lt;img src="/img/posts/2.png"&gt;');
+    }
+    else if(noon&lt;now &amp;&amp; nightTime &gt; now){
+      document.write('&lt;img src="/img/posts/3.png"&gt;');
+    }
+    else {
+      document.write('&lt;img src="/img/posts/4.png"&gt;');
+    }
+  &lt;/script&gt;
+
+  </code></pre>
+<p>ผลที่ได้ก็จะเป็นแบบนี้</p>
+
+<script type="text/javascript">
+  var now = new Date();
+  var nowTime = now.getDay();
+
+  var dayTime =  new Date();
+  var brunch =  new Date();
+  var noon =  new Date();
+  var nightTime =  new Date();
+
+  //ตั้งเวลาเริ่มต้นเของช่วงที่ต้องการ
+
+  dayTime.setHours(5);
+  dayTime.setMinutes(1);
+
+  brunch.setHours(8);
+  brunch.setMinutes(1);
+
+  noon.setHours(15);
+  noon.setMinutes(1);
+
+  nightTime.setHours(19);
+  nightTime.setMinutes(1);
+
+  //แสดงภาพตามเวลา
+  if(dayTime<now && brunch > now){
+    document.write('<img src="/img/posts/1.png">');
+  }
+  else if(brunch<now && noon > now){
+    document.write('<img src="/img/posts/2.png">');
+  }
+  else if(noon<now && nightTime > now){
+    document.write('<img src="/img/posts/3.png">');
+  }
+  else {
+    document.write('<img src="/img/posts/4.png">');
+  }
+</script>
+
+
+
+        
+
+        
+
+        
+    </div>
+    <!-- .entry-content -->
+
+    
+
+</article>
+<!-- .hentry -->
+
+
+
+
+<!-- .about-author -->
+<aside class="about-author">
+    <h3>เขียนและเรียบเรียงโดย</h3>
+
+    <!-- .author-bio -->
+    <div class="author-bio">
+        <!-- .author-img -->
+        <div class="author-img">
+            <a href="/#/about"><img alt="Avatar" src="/img/avatar.png" class="avatar"></a>
+        </div>
+        <!-- .author-img -->
+        <!-- .author-info -->
+        <div class="author-info">
+            <h4 class="author-name">รัฐพงศ์ วรชาติอุดมพงศ์</h4>
+            <p><p>อาจารย์ และนักออกแบบอิสระจากเมืองหัวหิน รับงานออกแบบทุกชนิด ตั้งแต่สื่อสิงพิมพ์ สื่อดิจิตอล ไปจนถึงเว็บไซต์ และมัลติมีเดีย พร้อมที่จะแบ่งปันความรู้ และรับใช้ท่านเสมอ</p>
+</p>
+        </div>
+        <!-- .author-info -->
+    </div>
+    <!-- .author-bio -->
+
+</aside>
+<!-- .about-author -->
+
+<!-- .nav-single -->
+<nav class="nav-single row">
+    <div class="nav-previous col-sm-6">
+        
+    </div>
+
+    <div class="nav-next col-sm-6">
+        
+    </div>
+</nav>
+<!-- .nav-single -->
+
+                </div>
+                <!-- .blog-single -->
+            </div>
+            <!-- WRAPPER -->
+
+            <div></div>
+<!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+<div class="p-overlay"></div>
+<div class="p-overlay"></div>
+
+<!-- ALERT : used for contact form mail delivery alert -->
+<div class="site-alert animated"></div>
+
+<!-- SCRIPTS -->
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/jquery.address-1.5.min.js"></script>
+<script src="/js/triple.layout.js"></script>
+<script src="/js/smoothscroll.js"></script>
+<script src="/js/nprogress/nprogress.js"></script>
+<script src="/js/fastclick.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/jquery.isotope.min.js"></script>
+<script src="/js/jquery.flexslider-min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/jquery.uniform.min.js"></script>
+<script src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="/js/jquery.tooltipster.min.js"></script>
+<script src="/js/google-code-prettify/prettify.js"></script>
+<script src="/js/twitterFetcher_v10_min.js"></script>
+<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
+<script src="/js/send-mail.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/readmore.min.js"></script>
+<script src="/js/readremaining.jquery.js"></script>
+<script src="/js/personal.js"></script>
+<script src="/js/main.js"></script>
+
+            <script src="/js/blog-post.js"></script>
+        </div>
+        <!-- CONTAINER -->
+    </body>
+</html>
