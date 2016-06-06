@@ -3,7 +3,7 @@ title: รัฐพงศ์ วรชาติอุดมพงศ์
 email: maggotgluon@gmail.com
 description: >
   อาจารย์ และนักออกแบบอิสระจากเมืองหัวหิน รับงานออกแบบทุกชนิด ตั้งแต่สื่อสิงพิมพ์ สื่อดิจิตอลไปจนถึงเว็บไซต์ และมัลติมีเดีย พร้อมที่จะแบ่งปันความรู้และรับใช้ท่านเสมอ
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://maggotgluon.github.io" # the base hostname & protocol for your site
 github_username:  maggotgluon
 header_description: อาจารย์, นักออกแบบอิสระ, โปรแกรมเมอร์ และอื่นๆ...
