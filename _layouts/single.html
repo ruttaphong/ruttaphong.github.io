@@ -4,14 +4,17 @@
 
     <body>
         <!-- CONTAINER -->
-        <div class="container" id="container">
+        <div class="container" id="container" >
             <!-- HEADER -->
             <!-- <header class="header"> -->
               {% if page.img %}
                 <!-- .featured-image -->
                 <header class="header" style="background-image: url({{ page.img.url }});
                 background-repeat: no-repeat;
-              	background-position: center;">
+                background-size: cover;
+              	background-position: center;
+                background-blend-mode: multiply;
+                background-color: rgba(0,0,0,.5);">
                 <!-- .featured-image -->
               {% else %}
                 <header class="header">
