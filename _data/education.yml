@@ -1,0 +1,25 @@
+- school: Sukhothai Thammathirat Open University
+  current: Yes
+  start: Jan 2013
+  end: now
+  degrees:
+    - name: Computer Science
+      concentration: 
+      type: "Computer Science"
+      gpa:
+
+  description: |
+
+
+- school: Silpakorn University
+  current: No
+  start: Jan 2005
+  end: Feb 2012
+  degrees:
+    - name: Information and communications technology
+      concentration:  Game Major
+      type: "ไม่จบการศึกษา"
+      gpa: "ไม่จบการศึกษา"
+
+  description: |
+   

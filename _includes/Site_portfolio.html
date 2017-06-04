@@ -1,0 +1,43 @@
+
+        <!-- PAGE : PORTFOLIO -->
+        <section id="portfolio" class="portfolio page">
+            <div class="content">
+                <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2>
+
+                <!--FILTERS-->
+                <ul id="filters" class="filters">
+                  <li class="current"><a href="#" data-filter="*">ALL</a></li>
+                  <li><a href="#" data-filter=".web-development">WEB DEVELOPMENT</a></li>
+                  <li><a href="#" data-filter=".software-development">SOFTWARE DEVELOPMENT</a></li>
+                  <li><a href="#" data-filter=".game-development">GAME DEVELOPMENT</a></li>
+                  <li><a href="#" data-filter=".work-in-progress">WORK IN PROGRESS</a></li>
+                </ul>
+                <!--FILTERS-->
+
+
+                <!-- PORTFOLIO -->
+                <div class="portfolio-items media-grid" data-layout="masonry">
+                {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %}
+                {% for project in projects reversed %}
+                      <!-- portfolio-item -->
+                      <div class="media-cell {{ project.category | slugify }} {% if project.work-in-progress %} work-in-progress {% endif %} hentry">
+
+                        <div class="media-box">
+                            <img src="{{ project.image.url }}" alt="{{ project.image.alt }}" title="{{ project.image.title }}">
+                            <div class="mask"></div>
+                            <a href="{{ project.dir }}" class="ajax"></a>
+                        </div>
+
+                        <div class="media-cell-desc">
+                            <h3>{{ project.title }} {% if project.work-in-progress %} (WIP) {% endif %}</h3>
+                            <p class="category">{{ project.category }}</p>
+                        </div>
+
+                      </div>
+                      <!-- portfolio-item -->
+
+                {% endfor %}
+                </div>
+                </div>
+                </section>
+                <!-- PORTFOLIO -->

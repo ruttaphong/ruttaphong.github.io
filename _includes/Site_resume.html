@@ -1,0 +1,159 @@
+
+        <!-- PAGE : RESUME -->
+        <section id="resume" class="page">
+            <div class="content">
+                <!-- CONTENT -->
+
+
+                <!-- row -->
+                <div class="row">
+                    <!-- col 6/12 -->
+                    <div class="col-md-6">
+                        <!-- timeline -->
+                        <div class="timeline">
+                            <h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
+                            {% for experience in site.data.experiences reversed %}
+                            <div class="event {% if experience.current %}current{% endif %}">
+                                <span class="date">{{ experience.end | date: "%Y" }}</span>
+                                <h4>{{ experience.title }}</h4>
+                                <h5>{{ experience.company }} <span class="pull-right">{{ experience.location }}</span></h5>
+                                <div class="work-summary">{{ experience.summary | markdownify }}</div>
+                                {% if experience.blog_post %}
+                                <p>Read more about this experience <a href="{{ experience.blog_post }}">here</a>!</p>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                       </div>
+                       <!-- timeline -->
+
+                       <!-- timeline -->
+                       <div class="timeline">
+                            <h2><i class="icon-college"></i>EDUCATION HISTORY</h2>
+                            {% for education in site.data.education %}
+                            <div class="event {% if education.current %}current{% endif %}">
+                                <span class="date">{{ education.start | date: "%Y" }} -</span>
+                                {% for degree in education.degrees %}
+                                <h4>{{ degree.name }}, {{ degree.concentration }} <small>({{ degree.type }})</small></h4>
+                                {% endfor %}
+                                <h5>{{ education.school }}</h5>
+                                <p>{{ education.description | markdownify }}</p>
+                            </div>
+
+                            {% endfor %}
+                       </div>
+                       <!-- timeline -->
+
+
+                      </div>
+                      <!-- col 6/12 -->
+
+                       <!-- col 6/12 -->
+                       <div class="col-md-6">
+                           <!-- Dev Skills -->
+                            <h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span></h2>
+
+                            <p class="skill-list">An <span>*</span> indicates at least some level of comfort with the technology and be able to teach</p>
+                            <h3>Tools/Softwares</h3>
+                            <ul class="list-inline skill-list">
+                                <li> Adobe Photoshop <span>*</span> </li>
+                                <li> Adobe Illustrator <span>*</span> </li>
+                                <li> Adobe Aftereffect <span>*</span> </li>
+                                <li> Adobe Premiere </li>
+                                <li> Adobe Flash Professional <span>*</span> </li>
+                                <li> Adobe Dreamwaver <span>*</span> </li>
+                                <li> Adobe Lightroom </li>
+                                <li> Apple Final Cut Pro <span>*</span> </li>
+                                <li> Apple Motion <span>*</span> </li>
+                                <li> Microsoft Office </li>
+                                <li> Modo 3D <span>*</span> </li>
+                                <li> Maya </li>
+                                <li> Sketch Up </li>
+                                <li> Unity 3D </li>
+                                <li> Ableton Live </li>
+                                <li> Apple Logic</li>
+                            </ul>
+
+                            <h3>Languages</h3>
+                            <ul class="list-inline skill-list">
+                                <li>Java<span>*</span></li>
+                                <li>JavaScript</li>
+                                <li>C++</li>
+                                <li>PHP</li>
+                                <li>HTML<span>*</span></li>
+                                <li>CSS<span>*</span></li>
+                            </ul>
+
+                            <h3>Frameworks</h3>
+                            <ul class="list-inline skill-list">
+                                <li>Bootstrap<span>*</span></li>
+                            </ul>
+
+                            <h3>Databases</h3>
+                            <ul class="list-inline skill-list">
+                                <li>SQL<span>*</span></li>
+                            </ul>
+
+                            <h3>Other/Misc.</h3>
+                            <ul class="list-inline skill-list">
+                                <li>Unix (Mac)<span>*</span></li>
+                                <li>jQuery</li>
+                                <li>Wordpress (Theme and Plugin Development)</li>
+                                
+                                <li>Jekyll<span>*</span></li>
+                                
+                                
+                                <li>AJAX</li>
+                                <li>Responsive Design<span>*</span></li>
+                                <li>Mobile Friendly<span>*</span></li>
+                                <li>SEO</li>
+                                
+                            </ul>
+
+                            <!-- Dev Skills -->
+
+                            <!-- Awards/Honors -->
+                            <h2 class="section-title"><span><i class="icon-award-1"></i>AWARDS/HONORS</span></h2>
+                            <ul>
+                            {% for award in site.data.accomplishments reversed %}
+                                <li>{{ award.title }} <br>
+                                {{ award.from }}<span class="pull-right">{{ award.date }}</span></li>
+                            {% endfor %}
+                            </ul>
+                            <!-- Awards/Honors -->
+
+                            <!-- Talks/Presentations -->
+                            <!-- <h2 class="section-title"><span><i class="icon-mic"></i>TALKS/PRESENTATIONS</span></h2>
+                            <ul style="list-style: none;">
+                            {% for talk in site.data.talks reversed %}
+                                <li>{{ talk.title }} <span class="pull-right">{{ talk.date }}</span><br>
+                                    <span class="alt-description">{{ talk.description }}</span>
+                                </li>
+                            {% endfor %}
+                            </ul> -->
+                            <!-- Talks/Presentations -->
+
+                            <!-- Planning to Learn -->
+                            <h2 class="section-title"><span><i class="icon-college"></i>PLANNING TO LEARN</span></h2>
+                            <p>I've already used these things before, but I can't say that I <em>really</em> understand them yet. So I hope
+                            to use these in my upcoming projects:</p>
+                            <ul class="planning-to-learn">
+                                <!-- <li>
+                                    <strike>Angular, React, or a similar framework</strike>
+                                    <i class="fa fa-check success"></i>
+                                    <span>Updated 9/26/2015</span>
+                                </li> -->
+                                <li>Angular, React, or a similar framework</li>
+                                <li>Ruby on Rails</li>
+                                <li>Node</li>
+                            </ul>
+                            <!-- Planning to Learn -->
+
+                       </div>
+                       <!-- col 6/12 -->
+
+                </div>
+                <!-- row -->
+            </div>
+            <!-- CONTENT -->
+        </section>
+        <!-- PAGE : RESUME -->

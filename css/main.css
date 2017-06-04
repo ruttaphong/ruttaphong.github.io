@@ -44,8 +44,7 @@ body {
  	position: relative; width: 100%; height: 100%;
 	}
 body {
-	font-family: 'Kanit', sans-serif;
- 	font-size: 1em; line-height: 1.6; -webkit-text-size-adjust: none;
+ 	 font-size: 1em; line-height: 1.6; -webkit-text-size-adjust: none;
 	}
 a {
  	color: #096; text-decoration: none; outline: none;
@@ -74,8 +73,7 @@ input,
 textarea,
 select,
 button {
-	font-family: 'Kanit', sans-serif;
- 	/*font-family: Lato, Arial, serif*/
+ 	font-family: Lato, Arial, serif
 	}
 /* FONT AWESOME chrome svg hack for smooth icons :
    http://www.adtrak.co.uk/blog/font-face-chrome-rendering/#fix */
@@ -111,7 +109,7 @@ h1 {
  	font-size: 2.20em; margin: 0.8em 0 0.4em 0;
 	}
 h2 {
- 	font-size: 1.50em; margin: 1.0em 0 0.6em 0; font-weight: 500;
+ 	font-size: 1.50em; margin: 1.0em 0 0.6em 0; font-weight: 800;
 	}
 h3 {
  	font-size: 1.20em; margin: 1.0em 0 .6em 0;
@@ -130,7 +128,7 @@ p {
 	}
 /* blockquote  */
 blockquote {
- 	position: relative; margin: 2em 0; padding: .3em 2em 1em 2.0em; font-size: 1.6em; font-family: 'Kanit', sans-serif,Georgia, "Times New Roman", Times, serif; font-weight: 300; font-style: italic;
+ 	position: relative; margin: 2em 0; padding: .3em 2em 1em 2.0em; font-size: 1.6em; font-family: Georgia, "Times New Roman", Times, serif; font-weight: 300; font-style: italic;
 	}
 blockquote:before {
  	display: block; content: "\f10d"; line-height: 1; font-size: 1.2em; position: absolute; left: 0; top: -0.1em; color: #DDE4E6;
@@ -149,7 +147,7 @@ table {
  	font-size: .9em; margin-bottom: 3em; text-align: center;
 	}
 tr th {
- 	padding: .8em 2em .8em 2em; font-weight: 500; border-bottom: 2px solid #DDE4E6; text-transform: uppercase;
+ 	padding: .8em 2em .8em 2em; font-weight: 800; border-bottom: 2px solid #DDE4E6; text-transform: uppercase;
 	}
 tr td {
  	color: #6A7686; padding: .8em 1em .6em 1em; border-bottom: 1px solid #eee;
@@ -163,7 +161,7 @@ tr:nth-child(odd) td {
 /* code and pre  */
 code,
 pre {
- 	padding: 0 3px 2px; margin-bottom: 4em; font-family: 'Kanit', sans-serif, Monaco, Menlo, Consolas, "Courier New", monospace; font-size: 12px; color: #333333; white-space: pre; overflow: auto;
+ 	padding: 0 3px 2px; margin-bottom: 4em; font-family: Monaco, Menlo, Consolas, "Courier New", monospace; font-size: 12px; color: #333333; white-space: pre; overflow: auto;
 	}
 /* what a nightmare...
 code {
@@ -324,7 +322,7 @@ div.uploader {
 		}
 /* validation  */
 label.error {
- 	position: absolute; bottom: -20px; left: 0; min-width: 180px; font-size: 13px; font-weight: 500; text-transform: uppercase; padding: .2em .8em; border-radius: 3px; background-color: #DA4842; color: #fff; letter-spacing: 0;
+ 	position: absolute; bottom: -20px; left: 0; min-width: 180px; font-size: 13px; font-weight: 800; text-transform: uppercase; padding: .2em .8em; border-radius: 3px; background-color: #DA4842; color: #fff; letter-spacing: 0;
 	}
 label.error:after {
  	content: " "; position: absolute; left: 1.6em; bottom: 100%; pointer-events: none; width: 0; height: 0; border-bottom: 8px solid #DA4842; border-right: 8px solid transparent;
@@ -408,7 +406,7 @@ a.more-link,
  	padding: 0.25em 0 2.5em 0
 	}
 .entry-title {
- 	margin-top: 0; font-size: 3.0em; line-height: 1.2; font-weight: 500; text-align: center;
+ 	margin-top: 0; font-size: 3.0em; line-height: 1.2; font-weight: 800; text-align: center;
 	}
 .entry-content {
 	padding: 0.25em 0 1.250em 0
@@ -453,7 +451,7 @@ a.more-link,
  	position: absolute; visibility: hidden; width: 100%;
 	}
 .vs-nav li a {
- 	font-family: 'Kanit', sans-serif, Arial, Helvetica, sans-serif; position: relative; color: #FFF; letter-spacing: -3px; text-decoration: none; font-weight: 700; font-size: 2.7em;
+ 	font-family: Arial, Helvetica, sans-serif; position: relative; color: #FFF; letter-spacing: -3px; text-decoration: none; font-weight: 700; font-size: 2.7em;
 	}
 .vs-nav li a:hover {
 	color: #EEE;
@@ -688,7 +686,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	    font-size: 2.0em; font-weight: 300; line-height: 1.4;
 		}
 	.intro h2 strong {
-		letter-spacing: -2px; font-weight: 500;
+		letter-spacing: -2px; font-weight: 800;
 		}
 
 /* ROTATE WORDS */
@@ -696,7 +694,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	display: inline-block; min-width: 180px; min-height: 34px; text-align: left; text-indent: 4px;
 	}
 .rotate-words span {
-	position: absolute; opacity: 0; font-weight: 500; letter-spacing: -2px;
+	position: absolute; opacity: 0; font-weight: 800; letter-spacing: -2px;
 	}
 .rotate-words span.rotate-in {
 	animation: rotateInWord .5s linear forwards;
@@ -770,7 +768,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	 	margin-top: .4em; color: #96A5A8;
 		}
 	.service h4 {
-	 	margin-top: .8em; text-transform: uppercase; font-weight: 500;
+	 	margin-top: .8em; text-transform: uppercase; font-weight: 800;
 		}
 
 /* PROCESS */
@@ -857,7 +855,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		font-weight: 400; margin: 0; padding: 0;
 		}
 	.event h5 {
-		margin: 0; padding: 0 0 .3em 0; font-size: 0.9em; text-transform: uppercase; font-weight: 500; color: #d1dbdc;
+		margin: 0; padding: 0 0 .3em 0; font-size: 0.9em; text-transform: uppercase; font-weight: 800; color: #d1dbdc;
 		}
 	.event p {
 		margin: .6em 0 .2em 0
@@ -874,7 +872,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	padding-bottom: 0
 	}
 	.skill-unit h4 {
- 		margin-bottom: -30px; font-weight: 500; color: #fff; position: relative; z-index: 100; padding-left: 14px; text-transform: uppercase;
+ 		margin-bottom: -30px; font-weight: 800; color: #fff; position: relative; z-index: 100; padding-left: 14px; text-transform: uppercase;
 		}
 	.skill-unit .bar {
 		position: relative; width: 100%; height: 36px;
@@ -930,7 +928,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	padding: 1.0em 0 3em 0; overflow: auto;
 	}
 .letter-title {
- 	margin: 0 0 .6em 0; font-size: 2.6em; font-weight: 400; line-height: 120%; font-family: 'Kanit', sans-serif, 'Tangerine', serif; color: #D0DADC;
+ 	margin: 0 0 .6em 0; font-size: 2.6em; font-weight: 400; line-height: 120%; font-family: 'Tangerine', serif; color: #D0DADC;
 	}
 .letter-info {
  	margin-left: 130px;
@@ -1214,7 +1212,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		float: left; margin-right: 16px; padding: 4px 8px; text-align: center; font-size: 14px; line-height: 1; color: #fff; border-radius: 2px; margin-top: -66px; position: relative; background: #FFF; margin-left: 0%; background: #5BCF80;;
 		}
 		.media-cell-desc .date .day {
-			display: block; font-size: 32px; font-weight: 500; color: #fff;
+			display: block; font-size: 32px; font-weight: 800; color: #fff;
 			}
 .portfolio-items .media-cell-desc {
 	text-align: center;
@@ -1295,7 +1293,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 
 /* DROP CAP */
 .drop-cap:first-letter {
- 	font-size: 50px; font-weight: 500; line-height: .8; float: left; padding: 4px 16px 0px 0;
+ 	font-size: 50px; font-weight: 800; line-height: .8; float: left; padding: 4px 16px 0px 0;
 	}
 
 /* ICON LIST */
@@ -1311,7 +1309,7 @@ input[type=submit],
 input[type=button],
 button,
 a.button {
- 	display: inline-block; position: relative; padding: 1em 2em 1em; font-size: .925em; font-weight: 500; text-transform: uppercase; line-height: 1.2; border: 0; outline: 0; background: #fff; border: 2px solid #DDE4E6; color: #6A7686; text-shadow: none; border-radius: 4px;
+ 	display: inline-block; position: relative; padding: 1em 2em 1em; font-size: .925em; font-weight: 800; text-transform: uppercase; line-height: 1.2; border: 0; outline: 0; background: #fff; border: 2px solid #DDE4E6; color: #6A7686; text-shadow: none; border-radius: 4px;
 	}
 input[type=submit]:hover,
 input[type=button]:hover,
@@ -1520,7 +1518,7 @@ a.button.colored {
  				display: inline-block; padding: 1em 2em; font-weight: 300; letter-spacing: 0; border: 0; cursor: pointer;
 				}
 			.tabs .tab-titles li a.active {
- 				font-weight: 500; background-color: #fff; border-bottom-color: #fff; border: 2px solid #EAEEEF; border-bottom: none; border-radius: 6px 6px  0 0;
+ 				font-weight: 800; background-color: #fff; border-bottom-color: #fff; border: 2px solid #EAEEEF; border-bottom: none; border-radius: 6px 6px  0 0;
 				}
 	.tabs .tab-content {
  		margin-top: -1px; border: 2px solid #EAEEEF; border-radius: 0 6px 6px 6px;
@@ -1578,7 +1576,7 @@ a.button.colored {
  	content: "\f06a"
 	}
 .alert strong {
- 	font-weight: 500
+ 	font-weight: 800
 	}
 
 /* CTA */
@@ -1767,7 +1765,7 @@ a.button.colored {
  	margin: 0; font-size: 2em;
 	}
 .portfolio-field h3 {
- 	margin: 2em 0 .6em 0; font-size: 1.3em; text-transform: uppercase; font-weight: 500; color: #c8d3d6;
+ 	margin: 2em 0 .6em 0; font-size: 1.3em; text-transform: uppercase; font-weight: 800; color: #c8d3d6;
 	}
 .portfolio-field h3:first-child {
  	margin-top: 0
@@ -1851,7 +1849,7 @@ a.button.colored {
     display: inline-block; font-size: 21px; width: 55px; line-height: 46px; padding: 0; background: #fff; color: #6A7686; border: 4px solid #DDE4E6; border-radius: 50%;
 	}
 	.hentry .entry-date .day, .hentry .entry-comment .count  {
- 		display: block; margin: 0; line-height: 1; font-size: 32px; font-weight: 500;
+ 		display: block; margin: 0; line-height: 1; font-size: 32px; font-weight: 800;
 		}
 .entry-meta {
  	color: #BFC5CD; font-weight: 400; font-size: 0.750em;
@@ -1861,7 +1859,7 @@ a.button.colored {
 		}
 	.entry-meta a,
 	.post-pagination li a {
-		padding: 4px 10px; margin: 0 2px; border: 1px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-weight: 500;
+		padding: 4px 10px; margin: 0 2px; border: 1px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-weight: 800;
 		}
 .entry-meta a,
 .nav-single a,
@@ -1903,7 +1901,7 @@ a.button.colored {
 	}
 /* more link */
 a.more-link {
-	display: block; max-width: 17em; text-align: center; margin: 2em 0 0 0; padding: 1.2em 0 1.2em 0; color: #6A7686; font-weight: 400; font-size: .925em; background: none; border: 2px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-weight: 500;
+	display: block; max-width: 17em; text-align: center; margin: 2em 0 0 0; padding: 1.2em 0 1.2em 0; color: #6A7686; font-weight: 400; font-size: .925em; background: none; border: 2px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-weight: 800;
 	}
 a.more-link:hover {
  	background: #096
@@ -1992,7 +1990,7 @@ a.more-link:hover {
 		margin-top: 0
 		}
 .chat-author cite {
- 	display: inline-block; min-width: 80%; margin-right: .1em; font-size: 0.9em; font-weight: 500;
+ 	display: inline-block; min-width: 80%; margin-right: .1em; font-size: 0.9em; font-weight: 800;
 	}
 /* video  */
 .format-video .entry-meta .post-format:before {
@@ -2054,7 +2052,7 @@ a.more-link:hover {
  	content: "\e86d"
 	}
 .format-aside .entry-content .aside-content {
- 	position: relative; padding: .2em 2em .2em 3.7em; margin: 0 0 2em 0; border-radius: 4px; line-height: 1.9; font-style: italic; font-family: 'Kanit', sans-serif, Georgia, "Times New Roman", Times, serif; color: #5a4f43; text-shadow: 0 1px 0 white; background: #FFFFF4; border: 1px solid #E0DACE;
+ 	position: relative; padding: .2em 2em .2em 3.7em; margin: 0 0 2em 0; border-radius: 4px; line-height: 1.9; font-style: italic; font-family: Georgia, "Times New Roman", Times, serif; color: #5a4f43; text-shadow: 0 1px 0 white; background: #FFFFF4; border: 1px solid #E0DACE;
 	}
 .format-aside .entry-content .aside-content:before {
  	content: ''; position: absolute; top: 0; bottom: 0; left: 2em; width: 4px; border: solid #efcfad; border-color: rgba(239, 207, 173, 0.9); border-width: 0 1px;
@@ -2069,7 +2067,7 @@ a.more-link:hover {
  		width: 50%; float: left;
 		}
 	.navigation a {
- 		display: inline-block; padding: 1.5em 2.0em; border: 2px solid #DDE4E6; border-radius: 4px; font-weight: 500; text-transform: uppercase;
+ 		display: inline-block; padding: 1.5em 2.0em; border: 2px solid #DDE4E6; border-radius: 4px; font-weight: 800; text-transform: uppercase;
 		}
 	.navigation .nav-next {
  		text-align: right
@@ -2092,7 +2090,7 @@ a.more-link:hover {
 			}
 	.post-pagination li.current a,
 	.post-pagination li.current a:hover {
- 		border-color: #6A7686; font-weight: 500; background: #fff; color: #6A7686; cursor: default;
+ 		border-color: #6A7686; font-weight: 800; background: #fff; color: #6A7686; cursor: default;
 		}
 .related-posts li a:hover,
 .nav-single a:hover {
@@ -2238,7 +2236,7 @@ a.more-link:hover {
 	}
 .comment-meta .fn,
 .comment-reply-link {
- 	font-size: .8em; font-style: normal; font-weight: 500; text-transform: uppercase;
+ 	font-size: .8em; font-style: normal; font-weight: 800; text-transform: uppercase;
 	}
 	.comment-meta .fn + a {
  		float: right; font-size: .8em; color: #B7C6C9; border-bottom: 0;
@@ -2253,7 +2251,7 @@ a.more-link:hover {
  	text-align: right
 	}
 .comment-reply-link {
- 	font-weight: normal; font-size: .8em; letter-spacing: 1px; font-weight: 500;
+ 	font-weight: normal; font-size: .8em; letter-spacing: 1px; font-weight: 800;
 	}
 .comment-meta a:hover,
 .comment-meta .fn + a:hover,
@@ -2306,7 +2304,7 @@ a.more-link:hover {
 		display: block; margin-top: 6px; max-width: 96px; border-radius: 50%;
 		}
 .author-info .author-name {
- 	text-transform: uppercase; font-weight: 500;
+ 	text-transform: uppercase; font-weight: 800;
 	}
 .author-info p {
  	font-size: .9em; margin: .4em 0;

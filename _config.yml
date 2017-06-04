@@ -1,0 +1,24 @@
+# Site settings
+title: Ruttaphong Worachartudomphong
+email: maggotgluon@gmail.com
+description: >
+  The personal website, portfolio and blog of Ruttaphong Worachartudomphong programmer, web developer, Graphic designer and Computer geek.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ruttaphong.github.io" # the base hostname & protocol for your site
+github_username:  maggotgluon
+header_description: Programmer, Web developer, Graphic designer
+blog_author_description: >
+  Ruttaphong is a Computer Science who loves programming, web development, and graphic design. When he's not being productive, he likes to play video games, watch movie, and <s>plan for world domination</s> be normal.
+# Build settings
+markdown: kramdown
+
+exclude: ['README.md']
+
+paginate: 10
+paginate_path: /blog/page/:num/
+
+permalink: /blog/:year/:month/:title/
+
+related_project_keys: ["category", "technology"]
+
+gems: ['jekyll-paginate']
