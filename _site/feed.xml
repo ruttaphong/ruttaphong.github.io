@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruttaphong Worachartudomphong</title>
+    <description>The personal website, portfolio and blog of Ruttaphong Worachartudomphong programmer, web developer, Graphic designer and Computer geek.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Jun 2017 14:50:20 +0700</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 14:50:20 +0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Obligatory &quot;Hello World&quot;</title>
+        <description>&lt;p&gt;Just like how every programmer first starts with a “Hello World” program, it’s
+basically mandatory for “Hello World” to be every programmer’s first blog post!
+ So, here it is: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jun 2017 07:00:00 +0700</pubDate>
+        <link>http://localhost:4000/blog/2017/06/hello-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/06/hello-world/</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>JavaScriptเปลี่ยนพื้นหลังตามช่วงเวลาของวัน</title>
+        <description>&lt;p&gt;วันนี้ขอ มาแบ่งปันความรู้เกี่ยวกับ Java Script กันสักหน่อยครับ ผมเองได้มีโอกาสทำ Project Website หนึ่งที่ลูกค้าอยากให้ ภาพสื่อถึงบรรยากาศ ผมเลยเสนอว่า ถ้า ผู้ใช้งาน เข้าเว็บตอนเช้า ก็ให้พื้นหลังเป็นยามเช้า เข้าตอนเย็นเห็นพระอาทิตย์ตก เข้ามาเว็บตอนกลางคืน ก็เห็นพระจันทร์ ประมาณนี้ ลูกค้าก็เห็นดีด้วย ผมเลยได้โอกาสเขียน Snippet Java เล็กๆ ขึ้นเพื่องานนี้&lt;/p&gt;
+
+&lt;p&gt;โดยตัวอย่างจะแบ่งเป็น 4 ช่วงดังนี้&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;เช้า 5:01 - 8:00&lt;/li&gt;
+  &lt;li&gt;สาย 8:01 - 15:00&lt;/li&gt;
+  &lt;li&gt;เย็น 15:01 - 19:00&lt;/li&gt;
+  &lt;li&gt;ค่ำ 19:01 - 5:00&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre class=&quot;prettyprint linenums&quot;&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    var now = new Date();
+    var nowTime = now.getDay();
+
+    var dayTime =  new Date();
+    var brunch =  new Date();
+    var noon =  new Date();
+    var nightTime =  new Date();
+
+    //ตั้งเวลาเริ่มต้นเของช่วงที่ต้องการ
+
+    dayTime.setHours(5);
+    dayTime.setMinutes(1);
+
+    brunch.setHours(8);
+    brunch.setMinutes(1);
+
+    noon.setHours(15);
+    noon.setMinutes(1);
+
+    nightTime.setHours(19);
+    nightTime.setMinutes(1);
+
+    //แสดงภาพตามเวลา
+    if(dayTime&amp;lt;now &amp;amp;&amp;amp; brunch &amp;gt; now){
+      document.write('&amp;lt;img src=&quot;/img/posts/1.png&quot;&amp;gt;');
+    }
+    else if(brunch&amp;lt;now &amp;amp;&amp;amp; noon &amp;gt; now){
+      document.write('&amp;lt;img src=&quot;/img/posts/2.png&quot;&amp;gt;');
+    }
+    else if(noon&amp;lt;now &amp;amp;&amp;amp; nightTime &amp;gt; now){
+      document.write('&amp;lt;img src=&quot;/img/posts/3.png&quot;&amp;gt;');
+    }
+    else {
+      document.write('&amp;lt;img src=&quot;/img/posts/4.png&quot;&amp;gt;');
+    }
+  &amp;lt;/script&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- ผลที่ได้ก็จะเป็นแบบนี้ --&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/blog/2015/07/adding-autocomplete-to-inputs-through-twitters-typeahead/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/07/adding-autocomplete-to-inputs-through-twitters-typeahead/</guid>
+        
+        <category>javascript</category>
+        
+        <category>tutorial</category>
+        
+        <category>jQuery</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+  </channel>
+</rss>

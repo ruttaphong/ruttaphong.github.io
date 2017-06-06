@@ -9,6 +9,7 @@ github_username:  maggotgluon
 header_description: Programmer, Web developer, Graphic designer
 blog_author_description: >
   Ruttaphong is a Computer Science who loves programming, web development, and graphic design. When he's not being productive, he likes to play video games, watch movie, and <s>plan for world domination</s> be normal.
+
 # Build settings
 markdown: kramdown
 
