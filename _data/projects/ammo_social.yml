@@ -1,0 +1,25 @@
+title: ammo social
+date: 2017/04/07
+link: https://www.bangkokimpress.com/
+type: Company website
+category: web development
+description: |
+    Nice and clean look of company website. 
+    
+    The web itself is built using Jekyll, a static websites generater from markdown.
+    The server is currently hosted githup because it really have zero configuring servers and github is **freaking awesome**.
+reflection: |
+    Jekyll is awesome -- **seriously**. Most of coperate website just need simple website that can represent there infomation. 
+    So static websites should be enought and I don't think the user would know
+    the difference as long as it is styled like an modern website should be 
+    (which jekyll makes **incredibly easy**).  I love that it also low cost and have almost nothing to maintain.
+image:
+    url: /img/projects/bangkokimpress.png
+    title: "Project: bangkokimpress"
+    alt: A featured screenshot of the bangkokimpress website
+technology:
+        - Jekyll
+        - Bootstrap
+        - HTML
+        - CSS
+        - Java Script

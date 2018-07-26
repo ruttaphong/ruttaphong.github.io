@@ -25,6 +25,12 @@ var tipuesearch = {"pages": [
     "url": "http://localhost:4000/#/contact"},
 
     
+    
+    {"title": "bangkokimpress",
+    "text": "Nice and clean look of company website.  The web itself is built using Jekyll, a static websites generater from markdown. The server is currently hosted githup because it really have zero configuring servers and github is freaking awesome. ",
+    "tags": "web development, project, Jekyll, Bootstrap, HTML, CSS, and Java Script",
+    "url": "http://localhost:4000/portfolio/bangkokimpress"},
+    
 
     
     {"title": "Obligatory &quot;Hello World&quot;",
