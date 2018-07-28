@@ -6,6 +6,7 @@ title: Home
 
 <div class="wrapper">
     {% include site_about.html %}
+    {% include site_portfolio.html %}
     {% include site_resume.html %}
     {% include site_contact.html %}
 </div>
