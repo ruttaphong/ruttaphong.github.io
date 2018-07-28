@@ -1,8 +1,15 @@
 ---
 title: Obligatory "Hello World"
+pagination: 
+  enabled: true
 layout: post
-date: '2017-06-05 07:00:00'
-category: general
+date: '1987-06-21 00:00:00'
+img:
+    url: /img/posts/jekyll-github-pages.png
+    title: Using Jekyll and GitHub Pages
+    alt: Jekyll and GitHub Pages
+category: tutorial
+tags: github-pages jekyll github creative-frugality
 type: hentry
 ---
 

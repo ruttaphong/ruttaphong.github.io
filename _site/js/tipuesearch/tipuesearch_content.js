@@ -107,17 +107,7 @@ var tipuesearch = {"pages": [
     
     {"title": "Obligatory &quot;Hello World&quot;",
     "text": "Just like how every programmer first starts with a “Hello World” program, it’s basically mandatory for “Hello World” to be every programmer’s first blog post!  So, here it is: Hello World! ",
-    "tags": "general, ",
-    "url": "http://localhost:4000"},
-    
-    {"title": "Making the Most Out of GitHub Pages",
-    "text": " So, I’m a pretty big fan of GitHub Pages.  Every time a friend wants to make a portfolio site I always recommend GitHub Pages – and Jekyll, too!  If you aren’t familiar with them, GitHub Pages is free hosting for static sites (using your GitHub repositories).  Jekyll is a static site generator, which means you can use templates, generate pages from data files, and a bunch of other cool things you don’t normally get with plain ol’ static sites.  ",
     "tags": "tutorial, github-pages, jekyll, github, and creative-frugality",
-    "url": "http://localhost:4000"},
-    
-    {"title": "Obligatory &quot;Hello World&quot;",
-    "text": "Just like how every programmer first starts with a “Hello World” program, it’s basically mandatory for “Hello World” to be every programmer’s first blog post!  So, here it is: Hello World! ",
-    "tags": "general, ",
     "url": "http://localhost:4000"}
     
 ]};
