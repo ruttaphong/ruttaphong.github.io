@@ -20,7 +20,7 @@ plugins:
 
 portfolio_dir: "projects"
 skip_related_projects: true
-related_min_common: 0.9
+
 related_project_keys: ["category", "technology"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
