@@ -9,7 +9,6 @@ title: Home
     {% include site_portfolio.html %}
     {% include site_resume.html %}
     {% include site_contact.html %}
-    <!-- include site_blog.html -->
 </div>
 
 <!-- CONTAINER -->
