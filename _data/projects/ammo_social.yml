@@ -1,25 +1,31 @@
 title: ammo social
-date: 2017/04/07
-link: https://www.bangkokimpress.com/
-type: Company website
-category: web development
+date: 
+link: 
+type: social management
+category: progress
 description: |
-    Nice and clean look of company website. 
-    
-    The web itself is built using Jekyll, a static websites generater from markdown.
-    The server is currently hosted githup because it really have zero configuring servers and github is **freaking awesome**.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa condimentum enim, sit amet sollicitudin velit sem at leo. Vivamus laoreet ipsum tortor, in maximus velit viverra sit amet. Nunc auctor justo quis diam ornare luctus eu id nisi. In nulla purus, sodales id ultrices at, facilisis venenatis justo.
+
+    Aliquam ac commodo ipsum. Vivamus ultricies metus ante. Mauris pretium commodo sapien eu pretium. Mauris luctus bibendum sapien ut porttitor. Aenean iaculis justo eu lacinia placerat. Duis luctus ornare sagittis. Phasellus magna ipsum, malesuada id augue sed, lacinia ullamcorper justo. Vestibulum dictum nisi elit, vel lacinia felis maximus eu. Nam egestas tortor in erat feugiat, et fermentum risus finibus. Nam libero justo, ultrices euismod mollis vel, blandit nec ex.
+
+    Vestibulum convallis a risus in mattis. Ut ut dictum augue. Proin erat lorem, laoreet vel tellus lacinia, dapibus vulputate odio. In sed nibh venenatis, venenatis eros malesuada, pharetra erat. Phasellus a commodo lacus. Nulla volutpat blandit elementum. Fusce justo urna, facilisis eget erat in, commodo blandit neque. Aliquam tempor pharetra neque vitae consectetur. Etiam vitae blandit tellus. Suspendisse potenti. Integer nec ante augue.
+
+    Aliquam eu orci tortor. Pellentesque fringilla sem ut porttitor porta. Suspendisse potenti. Vestibulum dignissim malesuada finibus. Nam orci felis, lobortis consequat cursus id, hendrerit quis ligula. Fusce in viverra tellus. Sed elementum erat tincidunt mauris tincidunt rutrum.
+
+    Sed sed quam sit amet risus faucibus feugiat elementum sed eros. Nullam sodales lacus sit amet commodo iaculis. Integer iaculis ultricies viverra. Quisque in turpis elementum purus facilisis auctor a sit amet lectus. Quisque vehicula mi quis metus convallis, nec ullamcorper massa ultricies. Morbi commodo ipsum ut magna ultricies facilisis. Sed efficitur nisi sagittis ex tempus, vitae malesuada nulla ultricies. Phasellus viverra quam non eros vehicula fringilla. Donec sed malesuada tellus. Phasellus pulvinar nulla dapibus fermentum convallis. Sed cursus, magna a consectetur aliquet, felis est euismod nibh, nec volutpat ex dolor sed ligula. Pellentesque non volutpat purus, eget dictum lorem. Vivamus vitae porta sapien, id tempus nibh. Proin feugiat urna eget nisl faucibus, ac eleifend arcu ultrices.
 reflection: |
-    Jekyll is awesome -- **seriously**. Most of coperate website just need simple website that can represent there infomation. 
-    So static websites should be enought and I don't think the user would know
-    the difference as long as it is styled like an modern website should be 
-    (which jekyll makes **incredibly easy**).  I love that it also low cost and have almost nothing to maintain.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa condimentum enim, sit amet sollicitudin velit sem at leo. Vivamus laoreet ipsum tortor, in maximus velit viverra sit amet. Nunc auctor justo quis diam ornare luctus eu id nisi. In nulla purus, sodales id ultrices at, facilisis venenatis justo.
+
+    Aliquam ac commodo ipsum. Vivamus ultricies metus ante. Mauris pretium commodo sapien eu pretium. Mauris luctus bibendum sapien ut porttitor. Aenean iaculis justo eu lacinia placerat. Duis luctus ornare sagittis. Phasellus magna ipsum, malesuada id augue sed, lacinia ullamcorper justo. Vestibulum dictum nisi elit, vel lacinia felis maximus eu. Nam egestas tortor in erat feugiat, et fermentum risus finibus. Nam libero justo, ultrices euismod mollis vel, blandit nec ex.
+
+    Vestibulum convallis a risus in mattis. Ut ut dictum augue. Proin erat lorem, laoreet vel tellus lacinia, dapibus vulputate odio. In sed nibh venenatis, venenatis eros malesuada, pharetra erat. Phasellus a commodo lacus. Nulla volutpat blandit elementum. Fusce justo urna, facilisis eget erat in, commodo blandit neque. Aliquam tempor pharetra neque vitae consectetur. Etiam vitae blandit tellus. Suspendisse potenti. Integer nec ante augue.
+
+    Aliquam eu orci tortor. Pellentesque fringilla sem ut porttitor porta. Suspendisse potenti. Vestibulum dignissim malesuada finibus. Nam orci felis, lobortis consequat cursus id, hendrerit quis ligula. Fusce in viverra tellus. Sed elementum erat tincidunt mauris tincidunt rutrum.
+
+    Sed sed quam sit amet risus faucibus feugiat elementum sed eros. Nullam sodales lacus sit amet commodo iaculis. Integer iaculis ultricies viverra. Quisque in turpis elementum purus facilisis auctor a sit amet lectus. Quisque vehicula mi quis metus convallis, nec ullamcorper massa ultricies. Morbi commodo ipsum ut magna ultricies facilisis. Sed efficitur nisi sagittis ex tempus, vitae malesuada nulla ultricies. Phasellus viverra quam non eros vehicula fringilla. Donec sed malesuada tellus. Phasellus pulvinar nulla dapibus fermentum convallis. Sed cursus, magna a consectetur aliquet, felis est euismod nibh, nec volutpat ex dolor sed ligula. Pellentesque non volutpat purus, eget dictum lorem. Vivamus vitae porta sapien, id tempus nibh. Proin feugiat urna eget nisl faucibus, ac eleifend arcu ultrices.
 image:
-    url: /img/projects/bangkokimpress.png
-    title: "Project: bangkokimpress"
-    alt: A featured screenshot of the bangkokimpress website
+    url: /img/projects/loading.png
+    title: "under Construction"
+    alt: 
 technology:
-        - Jekyll
-        - Bootstrap
-        - HTML
-        - CSS
-        - Java Script
+        - hand

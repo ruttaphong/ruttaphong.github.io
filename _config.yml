@@ -15,11 +15,21 @@ markdown: kramdown
 
 exclude: ['README.md']
 
-# paginate: 10
-# paginate_path: /blog/page/:num/
+plugins:
+  - jekyll-feed
 
-permalink: /blog/:year/:month/:title/
-
+portfolio_dir: "projects"
+skip_related_projects: true
+related_min_common: 0.9
 related_project_keys: ["category", "technology"]
-
-# gems: ['jekyll-paginate']
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

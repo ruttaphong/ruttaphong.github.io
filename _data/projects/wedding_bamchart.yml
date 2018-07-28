@@ -1,8 +1,8 @@
-title: dhumma
+title: bam chart wedding
 date: 
 link: 
-type: Company website
-category: progress
+type: wedding presentation
+category: video
 description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa condimentum enim, sit amet sollicitudin velit sem at leo. Vivamus laoreet ipsum tortor, in maximus velit viverra sit amet. Nunc auctor justo quis diam ornare luctus eu id nisi. In nulla purus, sodales id ultrices at, facilisis venenatis justo.
 
@@ -24,8 +24,8 @@ reflection: |
 
     Sed sed quam sit amet risus faucibus feugiat elementum sed eros. Nullam sodales lacus sit amet commodo iaculis. Integer iaculis ultricies viverra. Quisque in turpis elementum purus facilisis auctor a sit amet lectus. Quisque vehicula mi quis metus convallis, nec ullamcorper massa ultricies. Morbi commodo ipsum ut magna ultricies facilisis. Sed efficitur nisi sagittis ex tempus, vitae malesuada nulla ultricies. Phasellus viverra quam non eros vehicula fringilla. Donec sed malesuada tellus. Phasellus pulvinar nulla dapibus fermentum convallis. Sed cursus, magna a consectetur aliquet, felis est euismod nibh, nec volutpat ex dolor sed ligula. Pellentesque non volutpat purus, eget dictum lorem. Vivamus vitae porta sapien, id tempus nibh. Proin feugiat urna eget nisl faucibus, ac eleifend arcu ultrices.
 image:
-    url: /img/projects/loading.png
-    title: "under Construction"
+    url: https://img.youtube.com/vi/HIoPPbLpsZ0/0.jpg
+    title: "wedding presentation"
     alt: 
 technology:
-        - hand
+        - after effect

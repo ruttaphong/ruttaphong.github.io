@@ -1,4 +1,5 @@
 module Jekyll
+
     class ProjectPage < Page
         def initialize(site, base, dir, project_data)
             @site = site
@@ -14,9 +15,9 @@ module Jekyll
     end
 
     class PortfolioGenerator < Generator
-        safe true
+    	safe true
 
-        def generate(site)
+    	def generate(site)
             dir = site.config["portfolio_dir"] || "portfolio"
 
             # First get the related projects and add them to each project
@@ -72,10 +73,10 @@ module Jekyll
                 keys.each { |key| total += get_num_matches_for_key(project1, project2, key) }
             end
 
-            result = total.fdiv(total_possible_matches).round(2)
+            result = total.fdiv(total_possible_matches).round(1)
 
             # Uncomment to see info about the matches for each project
-            #puts "Matches between #{project1["title"]} and #{project2["title"]}: #{total} (#{result})"
+            # puts "Matches between #{project1["title"]} and #{project2["title"]}: #{total} (#{result})"
 
             return result
         end
@@ -108,12 +109,13 @@ module Jekyll
             return matches
         end
 
+
         def slugify(title)
             title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
         end
 
     end
-
+    
     module ProjectFilter
         def get_projects_from_files(input)
             projects = []

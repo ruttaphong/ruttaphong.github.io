@@ -8,12 +8,11 @@
                 <ul id="filters" class="filters">
                   <li class="current"><a href="#" data-filter="*">ALL</a></li>
                   <li><a href="#" data-filter=".web-development">WEB DEVELOPMENT</a></li>
-                  <li><a href="#" data-filter=".software-development">SOFTWARE DEVELOPMENT</a></li>
-                  <li><a href="#" data-filter=".game-development">GAME DEVELOPMENT</a></li>
-                  <li><a href="#" data-filter=".work-in-progress">WORK IN PROGRESS</a></li>
+                  <li><a href="#" data-filter=".design">DESIGN</a></li>
+                  <li><a href="#" data-filter=".video">VIDEO</a></li>
+                  <li><a href="#" data-filter=".progress">WORK IN PROGRESS</a></li>
                 </ul>
                 <!--FILTERS-->
-
 
                 <!-- PORTFOLIO -->
                 <div class="portfolio-items media-grid" data-layout="masonry">
@@ -25,7 +24,7 @@
                         <div class="media-box">
                             <img src="{{ project.image.url }}" alt="{{ project.image.alt }}" title="{{ project.image.title }}">
                             <div class="mask"></div>
-                            <a href="{{ project.dir }}" class="ajax"></a>
+                            <a href="{{ project.dir }}" id="inline"></a>
                         </div>
 
                         <div class="media-cell-desc">
@@ -38,6 +37,6 @@
 
                 {% endfor %}
                 </div>
-                </div>
-                </section>
                 <!-- PORTFOLIO -->
+              </div>
+            </section>

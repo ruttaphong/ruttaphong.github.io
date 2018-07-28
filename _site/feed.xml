@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Jul 2018 14:04:32 +0700</pubDate>
-    <lastBuildDate>Thu, 26 Jul 2018 14:04:32 +0700</lastBuildDate>
+    <pubDate>Sat, 28 Jul 2018 11:17:43 +0700</pubDate>
+    <lastBuildDate>Sat, 28 Jul 2018 11:17:43 +0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -17,8 +17,8 @@ basically mandatory for “Hello World” to be every programmer’s first blog 
  So, here it is: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Jun 2017 07:00:00 +0700</pubDate>
-        <link>http://localhost:4000/blog/2017/06/hello-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/06/hello-world/</guid>
+        <link>http://localhost:4000/general/2017/06/05/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2017/06/05/hello-world.html</guid>
         
         
         <category>general</category>
@@ -26,70 +26,121 @@ basically mandatory for “Hello World” to be every programmer’s first blog 
       </item>
     
       <item>
-        <title>JavaScriptเปลี่ยนพื้นหลังตามช่วงเวลาของวัน</title>
-        <description>&lt;p&gt;วันนี้ขอ มาแบ่งปันความรู้เกี่ยวกับ Java Script กันสักหน่อยครับ ผมเองได้มีโอกาสทำ Project Website หนึ่งที่ลูกค้าอยากให้ ภาพสื่อถึงบรรยากาศ ผมเลยเสนอว่า ถ้า ผู้ใช้งาน เข้าเว็บตอนเช้า ก็ให้พื้นหลังเป็นยามเช้า เข้าตอนเย็นเห็นพระอาทิตย์ตก เข้ามาเว็บตอนกลางคืน ก็เห็นพระจันทร์ ประมาณนี้ ลูกค้าก็เห็นดีด้วย ผมเลยได้โอกาสเขียน Snippet Java เล็กๆ ขึ้นเพื่องานนี้&lt;/p&gt;
+        <title>Making the Most Out of GitHub Pages</title>
+        <description>
+&lt;p&gt;So, I’m a &lt;em&gt;pretty&lt;/em&gt; big fan of GitHub Pages.  Every time a friend wants to make a portfolio site I &lt;em&gt;always&lt;/em&gt; recommend GitHub Pages – and Jekyll, too!  If you aren’t familiar with them, &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; is free hosting for static sites (using your GitHub repositories).  &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, which means you can use templates, generate pages from data files, and a bunch of other cool things you don’t normally get with plain ol’ static sites.&lt;/p&gt;
 
-&lt;p&gt;โดยตัวอย่างจะแบ่งเป็น 4 ช่วงดังนี้&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;เช้า 5:01 - 8:00&lt;/li&gt;
-  &lt;li&gt;สาย 8:01 - 15:00&lt;/li&gt;
-  &lt;li&gt;เย็น 15:01 - 19:00&lt;/li&gt;
-  &lt;li&gt;ค่ำ 19:01 - 5:00&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Back in December I used GitHub Pages, Jekyll, and some other free resources to save myself about $90 a year and thought I should make a post about it so other people can save some money, too.&lt;/p&gt;
 
-&lt;pre class=&quot;prettyprint linenums&quot;&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
-    var now = new Date();
-    var nowTime = now.getDay();
+&lt;h1 id=&quot;small-business&quot;&gt;Small Business&lt;/h1&gt;
+&lt;p&gt;If you’ve browsed my site before or have &lt;a href=&quot;https://www.google.com/search?q=shannon+babincsak&quot;&gt;googled my name&lt;/a&gt; then you probably already know my dad has a martial arts studio (if not, TYL).  I’ve been paying its web bills the past few years, $5-10 for the domain and $80-90 for the hosting.   It might not seem like much, but hey, &lt;strong&gt;$100 is $100&lt;/strong&gt;.&lt;/p&gt;
 
-    var dayTime =  new Date();
-    var brunch =  new Date();
-    var noon =  new Date();
-    var nightTime =  new Date();
+&lt;iframe src=&quot;//giphy.com/embed/B0dqvPg0rFW0M&quot; width=&quot;480&quot; height=&quot;397.89473684210526&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed center-block&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-    //ตั้งเวลาเริ่มต้นเของช่วงที่ต้องการ
+&lt;p&gt;A martial arts studio doesn’t really need much in terms of hosting: 5-7 pages, a contact form, and a gallery (preferably automatically generated).  So why pay $80-90 for it?&lt;/p&gt;
 
-    dayTime.setHours(5);
-    dayTime.setMinutes(1);
+&lt;p&gt;Better yet, why pay at all?&lt;/p&gt;
 
-    brunch.setHours(8);
-    brunch.setMinutes(1);
+&lt;h1 id=&quot;migrating-over-to-github-pages&quot;&gt;Migrating Over to GitHub Pages&lt;/h1&gt;
+&lt;p&gt;The purpose of GitHub Pages is to let people create sites for their projects, &lt;strong&gt;but they don’t &lt;em&gt;have&lt;/em&gt; to be open source&lt;/strong&gt;.  GitHub lets
+you create public sites even for your &lt;em&gt;private&lt;/em&gt; repositories.  This means I can keep the code for the studio’s site in a private repository
+&lt;strong&gt;for free&lt;/strong&gt; (ayyy, student pack) and host it &lt;strong&gt;for free&lt;/strong&gt;.  GitHub is also &lt;strong&gt;dependable&lt;/strong&gt; with &lt;strong&gt;good up-time&lt;/strong&gt;.&lt;/p&gt;
 
-    noon.setHours(15);
-    noon.setMinutes(1);
+&lt;p&gt;The only restriction is that the site &lt;strong&gt;must be static&lt;/strong&gt; – you have no access to a server.  No server processing means the site will be served pretty quickly and won’t be subject to all kinds of security risks, but it also limits what you can do.  This is where Jekyll comes in.&lt;/p&gt;
 
-    nightTime.setHours(19);
-    nightTime.setMinutes(1);
+&lt;h1 id=&quot;migrating-over-to-jekyll&quot;&gt;Migrating Over to Jekyll&lt;/h1&gt;
+&lt;p&gt;The original site used PHP’s &lt;code class=&quot;highlighter-rouge&quot;&gt;include&lt;/code&gt; for things like a header and footer and relied on PHP for the gallery.  Every time someone navigated to it, the server would grab the images in that gallery page’s folder and display them.  Jekyll supports templates, so I can minimize code repitition easily using those, but what do I do about the gallery?&lt;/p&gt;
 
-    //แสดงภาพตามเวลา
-    if(dayTime&amp;lt;now &amp;amp;&amp;amp; brunch &amp;gt; now){
-      document.write('&amp;lt;img src=&quot;/img/posts/1.png&quot;&amp;gt;');
-    }
-    else if(brunch&amp;lt;now &amp;amp;&amp;amp; noon &amp;gt; now){
-      document.write('&amp;lt;img src=&quot;/img/posts/2.png&quot;&amp;gt;');
-    }
-    else if(noon&amp;lt;now &amp;amp;&amp;amp; nightTime &amp;gt; now){
-      document.write('&amp;lt;img src=&quot;/img/posts/3.png&quot;&amp;gt;');
-    }
-    else {
-      document.write('&amp;lt;img src=&quot;/img/posts/4.png&quot;&amp;gt;');
-    }
-  &amp;lt;/script&amp;gt;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- ผลที่ได้ก็จะเป็นแบบนี้ --&gt;
+&lt;h2 id=&quot;jekyll-plugins&quot;&gt;Jekyll Plugins&lt;/h2&gt;
+&lt;p&gt;The answer: use a plugin!  Jekyll lists a bunch of plugins people have made for it over on &lt;a href=&quot;https://jekyllrb.com/docs/plugins/&quot;&gt;this&lt;/a&gt; page.  I decided to write my own plugin, though, since I wanted a few specific things from it:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Generate a gallery page for the main gallery folder and each folder inside of it&lt;/li&gt;
+  &lt;li&gt;Set the page’s title based on the folder&lt;/li&gt;
+  &lt;li&gt;Add each folder’s images &lt;em&gt;and&lt;/em&gt; sub-folders to the page’s data variable&lt;/li&gt;
+  &lt;li&gt;Set the sub-folder’s image using an image called &lt;code class=&quot;highlighter-rouge&quot;&gt;cover.jpg&lt;/code&gt; and set each image’s &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; text using the image’s file name&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;gallery_generator.rb&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/codeinpink/17177e89c02958c4e8eb4f3340d34174.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;As you can see, the generator plugin will go through the &lt;code class=&quot;highlighter-rouge&quot;&gt;images/gallery&lt;/code&gt; folder and generate each gallery page, setting the title, pictures, and sub-galleries (sub-folders) as it goes.  The gallery template looks like this:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/codeinpink/b66c912226a6831267c1f8f02f015265.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;It displays the sub-galleries first and then all of the pictures, making sure to leave out the cover picture.  For the &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; text,
+I use a filter to grab the file name from the image’s path (since the path is what is passed in as &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ img }}&lt;/code&gt;).&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/codeinpink/2d68051a77b14c34071e3fc12604f926.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I don’t remember if I made this or if I got this off of Stack Overflow, but this also could have been done inside
+my generator plugin.&lt;/p&gt;
+
+&lt;p&gt;Another plugin I made was for the home page’s &lt;strong&gt;slideshow&lt;/strong&gt;.  I was tired of having to go in and manually change the images
+being pointed to and their alt text.  I wanted to just put the images in a folder and have them be used for the slideshow.  Here’s my solution:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/codeinpink/7b84d3ce1dc06e4d2eca16b485e56f0c.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This plugin takes all of the pictures in the &lt;code class=&quot;highlighter-rouge&quot;&gt;images/slideshow&lt;/code&gt; directory and adds them to my home page’s data variable.  In my home page’s template, I can now iterate through them like I would anything else.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-jekyll-y-things&quot;&gt;Other Jekyll-y Things&lt;/h2&gt;
+&lt;p&gt;Switching over to Jekyll allowed me to also move some things into &lt;strong&gt;data files&lt;/strong&gt; instead of hard-coding them into the HTML.  I moved
+the schedule, classes, instructor biographies, and services into their own data files so if I ever have to change the time a class
+is offered or add a new service or instructor I can just quickly change a data file.  For example, this is how I handled classes:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/codeinpink/d221175e110d6a3fd456f525f4e9e0b6.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;As you can see, all I have to do is loop through the classes in my &lt;code class=&quot;highlighter-rouge&quot;&gt;classes.yml&lt;/code&gt; data file and each class will get its section rendered.  The data file is simple enough to understand that I can even get my dad to modify it when classes change.&lt;/p&gt;
+
+&lt;h1 id=&quot;contact-form&quot;&gt;Contact Form&lt;/h1&gt;
+&lt;p&gt;A key component of every business’ site is the &lt;strong&gt;contact form&lt;/strong&gt;.  This was previously done using PHP, but I don’t have a server to use
+with GitHub Pages.  Solution?  &lt;a href=&quot;https://formspree.io/&quot;&gt;FormSpree&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whenever someone fills out the form and clicks submit, the form data is sent to their server, and they handle sending the email where it needs to go.  You’ll need to configure it for each domain (localhost for testing or the &lt;em&gt;live&lt;/em&gt; domain for production), but that takes 30 seconds.  FormSpree is pretty cool, no complaints here!&lt;/p&gt;
+
+&lt;h1 id=&quot;domain-name&quot;&gt;Domain Name&lt;/h1&gt;
+&lt;p&gt;A business obviously can’t have its site name be &lt;strong&gt;somename.github.io/business-name&lt;/strong&gt;.  This means we can’t use GitHub Pages, right?&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/3oz8xrkBxxhPyVFgek&quot; width=&quot;464.0409207161125&quot; height=&quot;480&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed center-block&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;GitHub Pages works with custom domains&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h1&gt;
+&lt;p&gt;In conclusion, try out GitHub Pages and Jekyll for your next site.  Most people don’t think
+of them when they are tasked with creating a site for a small business, but there’s nothing stopping you from saving some money!&lt;/p&gt;
+&lt;iframe src=&quot;//giphy.com/embed/11ISwbgCxEzMyY&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed center-block&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 </description>
-        <pubDate>Wed, 29 Jul 2015 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/blog/2015/07/adding-autocomplete-to-inputs-through-twitters-typeahead/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/07/adding-autocomplete-to-inputs-through-twitters-typeahead/</guid>
+        <pubDate>Thu, 06 Apr 2017 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/tutorial/2017/04/06/making-the-most-out-of-github-pages.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorial/2017/04/06/making-the-most-out-of-github-pages.html</guid>
         
-        <category>javascript</category>
+        <category>github-pages</category>
+        
+        <category>jekyll</category>
+        
+        <category>github</category>
+        
+        <category>creative-frugality</category>
+        
         
         <category>tutorial</category>
         
-        <category>jQuery</category>
+      </item>
+    
+      <item>
+        <title>Obligatory &quot;Hello World&quot;</title>
+        <description>&lt;p&gt;Just like how every programmer first starts with a “Hello World” program, it’s
+basically mandatory for “Hello World” to be every programmer’s first blog post!
+ So, here it is: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Jul 2015 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/general/2015/07/25/obligatory-hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2015/07/25/obligatory-hello-world.html</guid>
         
         
-        <category>tutorial</category>
+        <category>general</category>
         
       </item>
     

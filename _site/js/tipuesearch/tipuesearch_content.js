@@ -26,10 +26,82 @@ var tipuesearch = {"pages": [
 
     
     
+    {"title": "hua hin magazine",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "design, project, hand",
+    "url": "http://localhost:4000/projects/hua-hin-magazine"},
+    
+    
+    {"title": "ammo social",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/ammo-social"},
+    
+    
+    {"title": "ammo site",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/ammo-site"},
+    
+    
+    {"title": "patravadischool",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/patravadischool"},
+    
+    
+    {"title": "bam chart wedding",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "video, project, after effect",
+    "url": "http://localhost:4000/projects/bam-chart-wedding"},
+    
+    
+    {"title": "vic hua hin",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/vic-hua-hin"},
+    
+    
+    {"title": "hua hin zumba party 2017",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/hua-hin-zumba-party-2017"},
+    
+    
+    {"title": "hua hin zumba party 2018",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/hua-hin-zumba-party-2018"},
+    
+    
+    {"title": "Fit with Ammo",
+    "text": "Cleand and modern coperate identity design, rebranding for Hua Hin freelance fitness/groupX exersice.[AKA. my wife]  Demand project is to represent energy and personality of Ammo, so alfabet “A” is good and simple ",
+    "tags": "design, project, Affinity Designer, Adobe Illustrator, and Pen and Paper",
+    "url": "http://localhost:4000/projects/fit-with-ammo"},
+    
+    
+    {"title": "year note wedding",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "video, project, after effect",
+    "url": "http://localhost:4000/projects/year-note-wedding"},
+    
+    
+    {"title": "dailyhound",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/dailyhound"},
+    
+    
     {"title": "bangkokimpress",
     "text": "Nice and clean look of company website.  The web itself is built using Jekyll, a static websites generater from markdown. The server is currently hosted githup because it really have zero configuring servers and github is freaking awesome. ",
     "tags": "web development, project, Jekyll, Bootstrap, HTML, CSS, and Java Script",
-    "url": "http://localhost:4000/portfolio/bangkokimpress"},
+    "url": "http://localhost:4000/projects/bangkokimpress"},
+    
+    
+    {"title": "dhumma",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac velit quis sapien consectetur porta. Nunc ac purus tempor tellus condimentum maximus at non ipsum. Etiam gravida, dolor id semper consectetur, eros nunc consequat tortor, non laoreet leo arcu sit amet nibh. Nullam pellentesque, magna eu facilisis luctus, dolor massa… ",
+    "tags": "progress, project, hand",
+    "url": "http://localhost:4000/projects/dhumma"},
     
 
     
@@ -38,9 +110,14 @@ var tipuesearch = {"pages": [
     "tags": "general, ",
     "url": "http://localhost:4000"},
     
-    {"title": "JavaScriptเปลี่ยนพื้นหลังตามช่วงเวลาของวัน",
-    "text": "วันนี้ขอ มาแบ่งปันความรู้เกี่ยวกับ Java Script กันสักหน่อยครับ ผมเองได้มีโอกาสทำ Project Website หนึ่งที่ลูกค้าอยากให้ ภาพสื่อถึงบรรยากาศ ผมเลยเสนอว่า ถ้า ผู้ใช้งาน เข้าเว็บตอนเช้า ก็ให้พื้นหลังเป็นยามเช้า เข้าตอนเย็นเห็นพระอาทิตย์ตก เข้ามาเว็บตอนกลางคืน ก็เห็นพระจันทร์ ประมาณนี้ ลูกค้าก็เห็นดีด้วย ผมเลยได้โอกาสเขียน Snippet Java เล็กๆ ขึ้นเพื่องานนี้  ",
-    "tags": "tutorial, javascript, tutorial, and jQuery",
+    {"title": "Making the Most Out of GitHub Pages",
+    "text": " So, I’m a pretty big fan of GitHub Pages.  Every time a friend wants to make a portfolio site I always recommend GitHub Pages – and Jekyll, too!  If you aren’t familiar with them, GitHub Pages is free hosting for static sites (using your GitHub repositories).  Jekyll is a static site generator, which means you can use templates, generate pages from data files, and a bunch of other cool things you don’t normally get with plain ol’ static sites.  ",
+    "tags": "tutorial, github-pages, jekyll, github, and creative-frugality",
+    "url": "http://localhost:4000"},
+    
+    {"title": "Obligatory &quot;Hello World&quot;",
+    "text": "Just like how every programmer first starts with a “Hello World” program, it’s basically mandatory for “Hello World” to be every programmer’s first blog post!  So, here it is: Hello World! ",
+    "tags": "general, ",
     "url": "http://localhost:4000"}
     
 ]};

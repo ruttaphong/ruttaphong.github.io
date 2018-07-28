@@ -1,25 +1,18 @@
-title: ammo coper
-date: 2017/04/07
-link: https://www.bangkokimpress.com/
-type: Company website
-category: web development
+title: Fit with Ammo
+date: 2018/07/01
+link: 
+type: CL design
+category: design
 description: |
-    Nice and clean look of company website. 
-    
-    The web itself is built using Jekyll, a static websites generater from markdown.
-    The server is currently hosted githup because it really have zero configuring servers and github is **freaking awesome**.
+    Cleand and modern coperate identity design, rebranding for Hua Hin freelance fitness/groupX exersice.[AKA. my wife] 
+    Demand project is to represent energy and personality of Ammo, so alfabet "A" is good and simple 
 reflection: |
-    Jekyll is awesome -- **seriously**. Most of coperate website just need simple website that can represent there infomation. 
-    So static websites should be enought and I don't think the user would know
-    the difference as long as it is styled like an modern website should be 
-    (which jekyll makes **incredibly easy**).  I love that it also low cost and have almost nothing to maintain.
+    
 image:
-    url: /img/projects/bangkokimpress.png
-    title: "Project: bangkokimpress"
-    alt: A featured screenshot of the bangkokimpress website
+    url: /img/projects/loading.png
+    title: "Project: Fit with Ammo"
+    alt: A featured screenshot of the Fit with Ammo CL Design
 technology:
-        - Jekyll
-        - Bootstrap
-        - HTML
-        - CSS
-        - Java Script
+        - Affinity Designer
+        - Adobe Illustrator
+        - Pen and Paper
